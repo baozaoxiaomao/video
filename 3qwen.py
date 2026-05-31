@@ -14,7 +14,7 @@ import numpy as np
 # 阿里云百炼 Qwen2.5-Omni-7B 配置
 # ==============================================
 chat_model = ChatOpenAI(
-    api_key="sk-4780053072f645de9179696c3262b924",
+    api_key="你的api",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     model="qwen2.5-omni-7b",
     temperature=0.3,
