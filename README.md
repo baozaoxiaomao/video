@@ -12,6 +12,7 @@
   - AI 识别线程：异步调用大模型进行动作识别
   - 推流线程：异步写入 FFmpeg 避免阻塞
 - **中文显示支持**：在视频上叠加中文字幕显示识别结果
+<img width="540" height="740" alt="0baee49e88cc4ab9bf52a04aca395ca8" src="https://github.com/user-attachments/assets/a1307cee-7dc4-411f-a7d7-62fad066edb6" />
 
 ## 环境要求
 
@@ -67,8 +68,6 @@ RTSP_URL = "rtsp://127.0.0.1:554/stream"  # RTSP 推流地址
 ```bash
 python 3qwen.py
 ```
-
-5. 按 `Q` 键退出程序
 
 ## 系统架构
 
